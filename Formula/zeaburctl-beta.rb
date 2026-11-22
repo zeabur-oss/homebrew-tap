@@ -10,20 +10,20 @@ class ZeaburctlBeta < Formula
     depends_on arch: :arm64
 
     on_arm do
-      url "https://github.com/zeabur-oss/zeabur/releases/download/v0.3.0-beta.4/zeaburctl-v0.3.0-beta.4-darwin-arm64.tar.gz"
-      sha256 "6100adc7ecb90829153377047035ba931f52feaf860f457e6518d4bdeea07e4b"
+      url "https://github.com/zeabur-oss/zeabur/releases/download/v0.3.0-beta.5/zeaburctl-v0.3.0-beta.5-darwin-arm64.tar.gz"
+      sha256 "a405e2bcefd6b91c39c469480f0e69e3de0e693a9ddcd436866e8a111343a6dd"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/zeabur-oss/zeabur/releases/download/v0.3.0-beta.4/zeaburctl-v0.3.0-beta.4-linux-amd64.tar.gz"
-      sha256 "ae2c6d9fd68dd4434f1949080b708e10237d857731e51a96c8f59bc2fc4c4b9b"
+      url "https://github.com/zeabur-oss/zeabur/releases/download/v0.3.0-beta.5/zeaburctl-v0.3.0-beta.5-linux-amd64.tar.gz"
+      sha256 "ccdfc72c58b35c085008729fbba909a3cec636d13f42f1421dac432cbad9d2c3"
     end
 
     on_arm do
-      url "https://github.com/zeabur-oss/zeabur/releases/download/v0.3.0-beta.4/zeaburctl-v0.3.0-beta.4-linux-arm64.tar.gz"
-      sha256 "e6000b385a1231067d5245eeebc44e69a4722e3c084c6c7f9ff7f22c4e68581b"
+      url "https://github.com/zeabur-oss/zeabur/releases/download/v0.3.0-beta.5/zeaburctl-v0.3.0-beta.5-linux-arm64.tar.gz"
+      sha256 "761b1c5b475943cbbb235638b68f4111585300fa4fa231c0a6bcf6fc52be8f10"
     end
   end
 
