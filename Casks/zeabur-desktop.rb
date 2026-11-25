@@ -1,7 +1,7 @@
 # Written by scripts/homebrew.ts in zeabur-oss/zeabur for each release; do not edit.
 cask "zeabur-desktop" do
-  version "0.3.0"
-  sha256 "b448c486593385cf221ced65d5000b2de7b88238a2a4384b1fde505184bbb4f5"
+  version "0.3.2"
+  sha256 "0da1c019ef426437a0a1784c59b0aafbbb23cda46b42073ffe140964c737ec16"
 
   url "https://github.com/zeabur-oss/zeabur/releases/download/v#{version}/zeabur-desktop-v#{version}-darwin-arm64.dmg"
   name "Zeabur Desktop"
